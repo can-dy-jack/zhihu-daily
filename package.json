@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "git add docs/ && git commit -m \"Deploy\" && git subtree push --prefix docs origin gh-pages"
   },
   "dependencies": {
     "antd": "^5.8.5",
