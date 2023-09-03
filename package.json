@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "git add docs/ && git commit -m \"Deploy\" && git subtree push --prefix docs origin gh-pages"
+    "deploy": "echo ''>docs/.nojekyll && git add docs/ && git commit -m \"Deploy\" && git subtree push --prefix docs origin gh-pages"
   },
   "dependencies": {
     "antd": "^5.8.5",
