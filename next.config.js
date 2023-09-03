@@ -14,7 +14,7 @@ const nextConfig = {
   },
   output: 'export',
   distDir: 'docs',
-  basePath: ''
+  basePath: '/zhihu-daily'
 };
 
 module.exports = nextConfig;
